@@ -15,7 +15,15 @@ System.out.println(
   MapStream.of(numberOfCats)
       .filterValue(v -> v > 0)
       .mapKey(k -> k + " has ")
-      .mapValue(v -> v + " cats.")
+      .sortedByValue(Integer::compareTo)
+      .mapValue(v -> v + (v == 1 ? " cat." : " cats."))
       .collect(joining("\n"))
 );
+```
+Output:
+```
+Berty has 1 cat.
+Cecilia has 1 cat.
+Fiona has 2 cats.
+Anne" has 3 cats.
 ```
