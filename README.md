@@ -29,3 +29,7 @@ Berty has 1 cat.
 Fiona has 2 cats.
 Anne has 3 cats.
 ```
+
+## License
+This code is available under the [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0). 
+Attribution should be done to [Speedment, Inc.](http://speedment.org)
