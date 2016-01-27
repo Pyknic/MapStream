@@ -1,5 +1,5 @@
 # MapStream
-MapStream is a convinient extension to the Java 8 Stream API that let you stream over Key-Value pairs. The project is a fork of the [Speedment MapStream component](http://github.com/speedment/speedment/) in case you want to use it as a stand-alone.
+MapStream is a convenient extension to the Java 8 Stream API that let you stream over Key-Value pairs. The project is a fork of the [Speedment MapStream component](http://github.com/speedment/speedment/) in case you want to use it as a stand-alone.
 
 ## Example Usage
 ```java
@@ -29,6 +29,8 @@ Berty has 1 cat.
 Fiona has 2 cats.
 Anne has 3 cats.
 ```
+
+If you don't want to use static imports, replace `joining("\n")` with `Collectors.joining("\n")`.
 
 ## License
 This code is available under the [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0). 
