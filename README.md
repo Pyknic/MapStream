@@ -19,7 +19,7 @@ System.out.println(
       .mapKey(k -> k + " has ")
       .mapValue(v -> v + (v == 1 ? " cat." : " cats."))
       .map((k, v) -> k + v)
-      .collect(joining("\n"))
+      .collect(Collectors.joining("\n"))
 );
 ```
 Output:
@@ -30,7 +30,7 @@ Fiona has 2 cats.
 Anne has 3 cats.
 ```
 
-If you don't want to use static imports, replace `joining("\n")` with `Collectors.joining("\n")`.
+If you want to use static imports, replace `Collectors.joining("\n")` with `joining("\n")`.
 
 ## License
 This code is available under the [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0). 
