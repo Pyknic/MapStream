@@ -33,5 +33,16 @@ Anne has 3 cats.
 If you want to use static imports, replace `Collectors.joining("\n")` with `joining("\n")`.
 
 ## License
-This code is available under the [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0). 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 Attribution should be done to [Speedment, Inc.](http://speedment.org)
