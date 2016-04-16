@@ -41,6 +41,11 @@
     </properties>
     
     <name>MapStream</name>
+    <description>
+        A wrapper class for creating Key-Value Streams using the standard 
+        Java 8 API.
+    </description>
+    <url>https://www.github.com/Pyknic/MapStream/</url>
     
     <licenses>
         <license>
@@ -49,29 +54,33 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
-    <scm>
-        <connection>scm:git:git://github.com/pyknic/map-stream.git</connection>
-        <developerConnection>scm:git:git@github.com:pyknic/map-stream.git</developerConnection>
-        <url>https://github.com/pyknic/map-stream/</url>
-    </scm>
     
     <developers>
         <developer>
             <id>emifor</id>
             <name>Emil Forslund</name>
             <email>emil@speedment.com</email>
+            <organization>Speedment</organization>
+            <organizationUrl>http://www.speedment.org</organizationUrl>
         </developer>
         <developer>
             <id>permin</id>
             <name>Per Ake Minborg</name>
             <email>minborg@speedment.com</email>
+            <organization>Speedment</organization>
+            <organizationUrl>http://www.speedment.org</organizationUrl>
         </developer>
     </developers>
+    
+    <scm>
+        <connection>scm:git:git://github.com/pyknic/mapstream.git</connection>
+        <developerConnection>scm:git:git@github.com:pyknic/mapstream.git</developerConnection>
+        <url>git@github.com:pyknic/mapstream.git</url>
+    </scm>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/pyknic/map-stream/issues</url>
+        <url>https://github.com/pyknic/mapstream/issues</url>
     </issueManagement>
     
     <distributionManagement>
