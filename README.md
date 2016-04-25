@@ -32,6 +32,16 @@ Anne has 3 cats.
 
 If you want to use static imports, replace `Collectors.joining("\n")` with `joining("\n")`.
 
+## Download
+The easiest way to include MapStream in your projects is to add the following dependency to your `pom.xml`-file:
+```xml
+<dependency>
+    <groupId>com.github.pyknic</groupId>
+    <artifactId>map-stream</artifactId>
+    <version>2.3.1</version>
+</dependency>
+```
+
 ## License
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this project except in compliance with the License.
